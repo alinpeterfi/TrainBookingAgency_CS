@@ -4,3 +4,4 @@ D:\PS\TicketAgency_CS\TicketAgency_Server\TicketAgency_Server\bin\Debug\TicketAg
 D:\PS\TicketAgency_CS\TicketAgency_Server\TicketAgency_Server\bin\Debug\TicketAgency_Server.pdb
 D:\PS\TicketAgency_CS\TicketAgency_Server\TicketAgency_Server\obj\Debug\TicketAgency_Server.exe
 D:\PS\TicketAgency_CS\TicketAgency_Server\TicketAgency_Server\obj\Debug\TicketAgency_Server.pdb
+D:\PS\TicketAgency_CS\TicketAgency_Server\TicketAgency_Server\obj\Debug\TicketAgency_Server.csproj.AssemblyReference.cache

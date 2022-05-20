@@ -70,9 +70,9 @@ namespace TicketAgency_Client
             {
                 foreach(DataRow dr in this.users.Rows)
                 {
-                    if(dr["user"].Equals(username) && dr["password"].Equals(password))
+                    if(dr["username"].Equals(username) && dr["password"].Equals(password))
                     {
-                        return new User(dr["user"].ToString(), dr["password"].ToString(), dr["role"].ToString());
+                        return new User(dr["username"].ToString(), dr["password"].ToString(), dr["role"].ToString());
                     }
                 }
                 return null;
@@ -87,12 +87,12 @@ namespace TicketAgency_Client
         
         public void login(string role)
         {
-            if (role.ToUpper() == "ADMIN")
+            if (role.ToUpper().Equals("ADMIN"))
             {
-                //AdminV admV = new AdminV();
-               // admV.Visible = false;
-                //AdminControl control = new AdminControl(admV);
-               // admV.ShowDialog();
+                AdminV admV = new AdminV();
+                admV.Visible = false;
+                UserControl control = new AdminControl(admV);
+                admV.ShowDialog();
             }
             else
             {

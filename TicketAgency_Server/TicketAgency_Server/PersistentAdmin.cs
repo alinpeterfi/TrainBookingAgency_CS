@@ -52,7 +52,7 @@ namespace TicketAgency_Server
                     connection.Close();
                     connection.Open();
                 }
-                SqlCommand actualizare = new SqlCommand("delete from Users where user = '" +selectedUser +"'", connection);
+                SqlCommand actualizare = new SqlCommand("delete from Users where username = '" +selectedUser +"'", connection);
                 if (actualizare.ExecuteNonQuery() == 0)
                     delete = false;
                 connection.Close();
@@ -80,7 +80,7 @@ namespace TicketAgency_Server
                     connection.Close();
                     connection.Open();
                 }
-                SqlCommand actualizare = new SqlCommand("update Angajat set user = '" + user.UserName + "', password = '" + user.Password + "', role = '" + user.Role + "'" +" where user= '" +selectedUser +"'", connection);
+                SqlCommand actualizare = new SqlCommand("update Users set username = '" + user.UserName + "', password = '" + user.Password + "', role = '" + user.Role + "'" +" where username = '" +selectedUser +"'", connection);
                 if (actualizare.ExecuteNonQuery() == 0)
                     update = false;
                 connection.Close();

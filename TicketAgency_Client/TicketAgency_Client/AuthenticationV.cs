@@ -30,7 +30,7 @@ namespace TicketAgency_Client
             if(user != null)
             {
                 this.Hide();
-                this.authControl.login(user.UserName);
+                this.authControl.login(user.Role);
             }
             else
             {

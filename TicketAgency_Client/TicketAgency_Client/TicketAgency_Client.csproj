@@ -52,6 +52,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdminControl.cs" />
+    <Compile Include="AdminV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminV.Designer.cs">
+      <DependentUpon>AdminV.cs</DependentUpon>
+    </Compile>
     <Compile Include="AuthenticationControl.cs" />
     <Compile Include="AuthenticationV.cs">
       <SubType>Form</SubType>
@@ -79,6 +85,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AdminV.resx">
+      <DependentUpon>AdminV.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AuthenticationV.resx">
       <DependentUpon>AuthenticationV.cs</DependentUpon>
     </EmbeddedResource>
