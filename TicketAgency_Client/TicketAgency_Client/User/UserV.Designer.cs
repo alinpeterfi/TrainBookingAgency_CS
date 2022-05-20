@@ -54,20 +54,22 @@ namespace TicketAgency_Client
             // 
             // btnSearchTrain
             // 
+            this.btnSearchTrain.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.btnSearchTrain.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
-            this.btnSearchTrain.Location = new System.Drawing.Point(778, 297);
+            this.btnSearchTrain.Location = new System.Drawing.Point(897, 297);
             this.btnSearchTrain.Name = "btnSearchTrain";
             this.btnSearchTrain.Size = new System.Drawing.Size(138, 33);
             this.btnSearchTrain.TabIndex = 38;
             this.btnSearchTrain.Text = "SEARCH TRAIN";
-            this.btnSearchTrain.UseVisualStyleBackColor = true;
+            this.btnSearchTrain.UseVisualStyleBackColor = false;
             this.btnSearchTrain.Click += new System.EventHandler(this.btnSearchTrain_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.label5.Location = new System.Drawing.Point(780, 254);
+            this.label5.Location = new System.Drawing.Point(899, 249);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(144, 17);
             this.label5.TabIndex = 37;
@@ -75,7 +77,8 @@ namespace TicketAgency_Client
             // 
             // txtTrainNo
             // 
-            this.txtTrainNo.Location = new System.Drawing.Point(780, 271);
+            this.txtTrainNo.BackColor = System.Drawing.SystemColors.Control;
+            this.txtTrainNo.Location = new System.Drawing.Point(900, 271);
             this.txtTrainNo.Name = "txtTrainNo";
             this.txtTrainNo.Size = new System.Drawing.Size(134, 20);
             this.txtTrainNo.TabIndex = 36;
@@ -83,8 +86,9 @@ namespace TicketAgency_Client
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(778, 232);
+            this.label4.Location = new System.Drawing.Point(897, 227);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(147, 25);
             this.label4.TabIndex = 35;
@@ -92,46 +96,50 @@ namespace TicketAgency_Client
             // 
             // btnAuthentication
             // 
+            this.btnAuthentication.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.btnAuthentication.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnAuthentication.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btnAuthentication.Location = new System.Drawing.Point(778, 353);
+            this.btnAuthentication.Location = new System.Drawing.Point(897, 353);
             this.btnAuthentication.Name = "btnAuthentication";
             this.btnAuthentication.Size = new System.Drawing.Size(136, 44);
             this.btnAuthentication.TabIndex = 34;
             this.btnAuthentication.Text = "AUTHENTICATION";
-            this.btnAuthentication.UseVisualStyleBackColor = true;
+            this.btnAuthentication.UseVisualStyleBackColor = false;
             this.btnAuthentication.Click += new System.EventHandler(this.btnAuthentication_Click);
             // 
             // btnListTrains
             // 
+            this.btnListTrains.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.btnListTrains.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btnListTrains.Location = new System.Drawing.Point(778, 66);
+            this.btnListTrains.Location = new System.Drawing.Point(897, 51);
             this.btnListTrains.Name = "btnListTrains";
             this.btnListTrains.Size = new System.Drawing.Size(138, 29);
             this.btnListTrains.TabIndex = 33;
             this.btnListTrains.Text = "VIEW ALL TRAINS";
-            this.btnListTrains.UseVisualStyleBackColor = true;
+            this.btnListTrains.UseVisualStyleBackColor = false;
             this.btnListTrains.Click += new System.EventHandler(this.btnListTrains_Click);
             // 
             // btnSearch
             // 
+            this.btnSearch.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.btnSearch.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
-            this.btnSearch.Location = new System.Drawing.Point(778, 196);
+            this.btnSearch.Location = new System.Drawing.Point(897, 196);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(138, 28);
             this.btnSearch.TabIndex = 32;
             this.btnSearch.Text = "SEARCH";
-            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.UseVisualStyleBackColor = false;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // cmbDestination
             // 
+            this.cmbDestination.BackColor = System.Drawing.SystemColors.Control;
             this.cmbDestination.FormattingEnabled = true;
             this.cmbDestination.Items.AddRange(new object[] {
             "Bistrita",
             "Brasov",
             "Bucuresti"});
-            this.cmbDestination.Location = new System.Drawing.Point(780, 169);
+            this.cmbDestination.Location = new System.Drawing.Point(898, 169);
             this.cmbDestination.Name = "cmbDestination";
             this.cmbDestination.Size = new System.Drawing.Size(136, 21);
             this.cmbDestination.TabIndex = 31;
@@ -139,10 +147,11 @@ namespace TicketAgency_Client
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(778, 145);
+            this.label3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(897, 141);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(36, 25);
+            this.label3.Size = new System.Drawing.Size(32, 23);
             this.label3.TabIndex = 30;
             this.label3.Text = "TO";
             // 
@@ -177,10 +186,11 @@ namespace TicketAgency_Client
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(778, 94);
+            this.label2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(897, 83);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 25);
+            this.label2.Size = new System.Drawing.Size(59, 23);
             this.label2.TabIndex = 29;
             this.label2.Text = "FROM";
             // 
@@ -200,11 +210,12 @@ namespace TicketAgency_Client
             // 
             // cmbOrigin
             // 
+            this.cmbOrigin.BackColor = System.Drawing.SystemColors.Control;
             this.cmbOrigin.FormattingEnabled = true;
             this.cmbOrigin.Items.AddRange(new object[] {
             "Cluj-Napoca",
             "Bucuresti"});
-            this.cmbOrigin.Location = new System.Drawing.Point(780, 122);
+            this.cmbOrigin.Location = new System.Drawing.Point(899, 111);
             this.cmbOrigin.Name = "cmbOrigin";
             this.cmbOrigin.Size = new System.Drawing.Size(136, 21);
             this.cmbOrigin.TabIndex = 28;
@@ -212,8 +223,9 @@ namespace TicketAgency_Client
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(267, 28);
+            this.label1.Location = new System.Drawing.Point(483, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(123, 25);
             this.label1.TabIndex = 27;
@@ -237,11 +249,11 @@ namespace TicketAgency_Client
             this.Seats,
             this.Price,
             this.TicketId});
-            this.dgvUser.Location = new System.Drawing.Point(12, 66);
+            this.dgvUser.Location = new System.Drawing.Point(12, 51);
             this.dgvUser.Name = "dgvUser";
             this.dgvUser.RowHeadersWidth = 51;
             this.dgvUser.RowTemplate.Height = 25;
-            this.dgvUser.Size = new System.Drawing.Size(744, 331);
+            this.dgvUser.Size = new System.Drawing.Size(879, 346);
             this.dgvUser.TabIndex = 26;
             this.dgvUser.SelectionChanged += new System.EventHandler(this.dgvUser_SelectionChanged);
             // 
@@ -249,7 +261,8 @@ namespace TicketAgency_Client
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(936, 429);
+            this.BackgroundImage = global::TicketAgency_Client.Properties.Resources.backgroundFrame;
+            this.ClientSize = new System.Drawing.Size(1051, 429);
             this.Controls.Add(this.btnSearchTrain);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtTrainNo);
@@ -264,7 +277,7 @@ namespace TicketAgency_Client
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvUser);
             this.Name = "UserV";
-            this.Text = "Form1";
+            this.Text = "UserV";
             ((System.ComponentModel.ISupportInitialize)(this.dgvUser)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

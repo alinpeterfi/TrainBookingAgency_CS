@@ -46,12 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IPersistentAdmin.cs" />
-    <Compile Include="IPersistentEmployee.cs" />
-    <Compile Include="IPersistentUser.cs" />
-    <Compile Include="PersistentAdmin.cs" />
-    <Compile Include="PersistentEmployee.cs" />
-    <Compile Include="PersistentUser.cs" />
+    <Compile Include="Admin\IPersistentAdmin.cs" />
+    <Compile Include="Employee\IPersistentEmployee.cs" />
+    <Compile Include="User\IPersistentUser.cs" />
+    <Compile Include="Admin\PersistentAdmin.cs" />
+    <Compile Include="Employee\PersistentEmployee.cs" />
+    <Compile Include="User\PersistentUser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Ticket.cs" />

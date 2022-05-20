@@ -13,5 +13,5 @@ D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\obj\Debug\TicketAg
 D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\obj\Debug\TicketAgency_Client.pdb
 D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\obj\Debug\TicketAgency_Client.AuthenticationV.resources
 D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\obj\Debug\TicketAgency_Client.EmployeeV.resources
-D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\obj\Debug\TicketAgency_Client.csproj.AssemblyReference.cache
 D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\obj\Debug\TicketAgency_Client.AdminV.resources
+D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\obj\Debug\TicketAgency_Client.csproj.AssemblyReference.cache

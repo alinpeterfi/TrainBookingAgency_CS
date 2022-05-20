@@ -51,50 +51,50 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminControl.cs" />
-    <Compile Include="AdminV.cs">
+    <Compile Include="Admin\AdminControl.cs" />
+    <Compile Include="Admin\AdminV.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminV.Designer.cs">
+    <Compile Include="Admin\AdminV.Designer.cs">
       <DependentUpon>AdminV.cs</DependentUpon>
     </Compile>
-    <Compile Include="AuthenticationControl.cs" />
-    <Compile Include="AuthenticationV.cs">
+    <Compile Include="Authentication\AuthenticationControl.cs" />
+    <Compile Include="Authentication\AuthenticationV.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AuthenticationV.Designer.cs">
+    <Compile Include="Authentication\AuthenticationV.Designer.cs">
       <DependentUpon>AuthenticationV.cs</DependentUpon>
     </Compile>
-    <Compile Include="EmployeeControl.cs" />
-    <Compile Include="EmployeeV.cs">
+    <Compile Include="Employee\EmployeeControl.cs" />
+    <Compile Include="Employee\EmployeeV.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EmployeeV.Designer.cs">
+    <Compile Include="Employee\EmployeeV.Designer.cs">
       <DependentUpon>EmployeeV.cs</DependentUpon>
     </Compile>
-    <Compile Include="IAdmin.cs" />
-    <Compile Include="IAuthentication.cs" />
-    <Compile Include="IEmployee.cs" />
-    <Compile Include="IUser.cs" />
-    <Compile Include="UserControl.cs" />
-    <Compile Include="UserV.cs">
+    <Compile Include="Admin\IAdmin.cs" />
+    <Compile Include="Authentication\IAuthentication.cs" />
+    <Compile Include="Employee\IEmployee.cs" />
+    <Compile Include="User\IUser.cs" />
+    <Compile Include="User\UserControl.cs" />
+    <Compile Include="User\UserV.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserV.Designer.cs">
+    <Compile Include="User\UserV.Designer.cs">
       <DependentUpon>UserV.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AdminV.resx">
+    <EmbeddedResource Include="Admin\AdminV.resx">
       <DependentUpon>AdminV.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AuthenticationV.resx">
+    <EmbeddedResource Include="Authentication\AuthenticationV.resx">
       <DependentUpon>AuthenticationV.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EmployeeV.resx">
+    <EmbeddedResource Include="Employee\EmployeeV.resx">
       <DependentUpon>EmployeeV.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserV.resx">
+    <EmbeddedResource Include="User\UserV.resx">
       <DependentUpon>UserV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -105,6 +105,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -118,6 +119,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\actualizare.png" />
+    <Content Include="Images\adaugare.png" />
+    <Content Include="Images\cautare.png" />
+    <Content Include="Images\editare.png" />
+    <Content Include="Images\stergere.png" />
+    <None Include="Resources\backgroundFrame.jpg" />
+    <None Include="Resources\frameBackground.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

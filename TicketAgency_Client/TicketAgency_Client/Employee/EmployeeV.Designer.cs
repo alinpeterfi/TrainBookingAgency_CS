@@ -29,6 +29,7 @@ namespace TicketAgency_Client
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmployeeV));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnSell = new System.Windows.Forms.Button();
             this.btnRefill = new System.Windows.Forms.Button();
@@ -45,14 +46,14 @@ namespace TicketAgency_Client
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.btnDeleteTicket = new System.Windows.Forms.Button();
-            this.btnUpdateTicket = new System.Windows.Forms.Button();
-            this.btnAddTicket = new System.Windows.Forms.Button();
             this.txtOriginE = new System.Windows.Forms.TextBox();
             this.txtTrainE = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.btnDeleteTicket = new System.Windows.Forms.Button();
+            this.btnUpdateTicket = new System.Windows.Forms.Button();
+            this.btnAddTicket = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,11 +63,11 @@ namespace TicketAgency_Client
             // 
             // cmbDestination
             // 
-            this.cmbDestination.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbDestination.Margin = new System.Windows.Forms.Padding(2);
             // 
             // cmbOrigin
             // 
-            this.cmbOrigin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbOrigin.Margin = new System.Windows.Forms.Padding(2);
             // 
             // panel1
             // 
@@ -94,32 +95,34 @@ namespace TicketAgency_Client
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label8);
-            this.panel1.Location = new System.Drawing.Point(951, 66);
+            this.panel1.Location = new System.Drawing.Point(1049, 54);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(395, 331);
+            this.panel1.Size = new System.Drawing.Size(395, 343);
             this.panel1.TabIndex = 39;
             // 
             // btnSell
             // 
+            this.btnSell.BackColor = System.Drawing.Color.Red;
             this.btnSell.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btnSell.Location = new System.Drawing.Point(294, 234);
+            this.btnSell.Location = new System.Drawing.Point(294, 222);
             this.btnSell.Name = "btnSell";
-            this.btnSell.Size = new System.Drawing.Size(82, 33);
+            this.btnSell.Size = new System.Drawing.Size(82, 45);
             this.btnSell.TabIndex = 31;
             this.btnSell.Text = "SELL TICKET";
-            this.btnSell.UseVisualStyleBackColor = true;
+            this.btnSell.UseVisualStyleBackColor = false;
             this.btnSell.Click += new System.EventHandler(this.btnSell_Click);
             // 
             // btnRefill
             // 
+            this.btnRefill.BackColor = System.Drawing.Color.Lime;
             this.btnRefill.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.btnRefill.Location = new System.Drawing.Point(294, 278);
             this.btnRefill.Name = "btnRefill";
-            this.btnRefill.Size = new System.Drawing.Size(82, 33);
+            this.btnRefill.Size = new System.Drawing.Size(82, 42);
             this.btnRefill.TabIndex = 30;
             this.btnRefill.Text = "REFILL TICKETS";
-            this.btnRefill.UseVisualStyleBackColor = true;
+            this.btnRefill.UseVisualStyleBackColor = false;
             this.btnRefill.Click += new System.EventHandler(this.btnRefill_Click);
             // 
             // txtIdE
@@ -202,7 +205,7 @@ namespace TicketAgency_Client
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.label12.Location = new System.Drawing.Point(281, 175);
+            this.label12.Location = new System.Drawing.Point(272, 171);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(52, 15);
             this.label12.TabIndex = 19;
@@ -212,7 +215,7 @@ namespace TicketAgency_Client
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.label11.Location = new System.Drawing.Point(281, 133);
+            this.label11.Location = new System.Drawing.Point(272, 129);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(47, 15);
             this.label11.TabIndex = 18;
@@ -222,7 +225,7 @@ namespace TicketAgency_Client
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.label10.Location = new System.Drawing.Point(281, 94);
+            this.label10.Location = new System.Drawing.Point(272, 90);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(33, 15);
             this.label10.TabIndex = 17;
@@ -237,39 +240,6 @@ namespace TicketAgency_Client
             this.label9.Size = new System.Drawing.Size(218, 32);
             this.label9.TabIndex = 16;
             this.label9.Text = "EMPLOYEE PANEL";
-            // 
-            // btnDeleteTicket
-            // 
-            this.btnDeleteTicket.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnDeleteTicket.Location = new System.Drawing.Point(334, 119);
-            this.btnDeleteTicket.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnDeleteTicket.Name = "btnDeleteTicket";
-            this.btnDeleteTicket.Size = new System.Drawing.Size(51, 42);
-            this.btnDeleteTicket.TabIndex = 15;
-            this.btnDeleteTicket.UseVisualStyleBackColor = true;
-            this.btnDeleteTicket.Click += new System.EventHandler(this.btnDeleteTicket_Click);
-            // 
-            // btnUpdateTicket
-            // 
-            this.btnUpdateTicket.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnUpdateTicket.Location = new System.Drawing.Point(334, 165);
-            this.btnUpdateTicket.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnUpdateTicket.Name = "btnUpdateTicket";
-            this.btnUpdateTicket.Size = new System.Drawing.Size(51, 40);
-            this.btnUpdateTicket.TabIndex = 14;
-            this.btnUpdateTicket.UseVisualStyleBackColor = true;
-            this.btnUpdateTicket.Click += new System.EventHandler(this.btnUpdateTicket_Click);
-            // 
-            // btnAddTicket
-            // 
-            this.btnAddTicket.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnAddTicket.Location = new System.Drawing.Point(334, 74);
-            this.btnAddTicket.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnAddTicket.Name = "btnAddTicket";
-            this.btnAddTicket.Size = new System.Drawing.Size(51, 42);
-            this.btnAddTicket.TabIndex = 10;
-            this.btnAddTicket.UseVisualStyleBackColor = true;
-            this.btnAddTicket.Click += new System.EventHandler(this.btnAddTicket_Click);
             // 
             // txtOriginE
             // 
@@ -314,11 +284,52 @@ namespace TicketAgency_Client
             this.label8.TabIndex = 2;
             this.label8.Text = "TRAIN NO";
             // 
+            // btnDeleteTicket
+            // 
+            this.btnDeleteTicket.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnDeleteTicket.BackgroundImage = global::TicketAgency_Client.Properties.Resources.stergere;
+            this.btnDeleteTicket.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnDeleteTicket.Location = new System.Drawing.Point(325, 115);
+            this.btnDeleteTicket.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnDeleteTicket.Name = "btnDeleteTicket";
+            this.btnDeleteTicket.Size = new System.Drawing.Size(51, 42);
+            this.btnDeleteTicket.TabIndex = 15;
+            this.btnDeleteTicket.UseVisualStyleBackColor = false;
+            this.btnDeleteTicket.Click += new System.EventHandler(this.btnDeleteTicket_Click);
+            // 
+            // btnUpdateTicket
+            // 
+            this.btnUpdateTicket.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnUpdateTicket.BackgroundImage = global::TicketAgency_Client.Properties.Resources.editare;
+            this.btnUpdateTicket.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnUpdateTicket.Location = new System.Drawing.Point(325, 161);
+            this.btnUpdateTicket.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnUpdateTicket.Name = "btnUpdateTicket";
+            this.btnUpdateTicket.Size = new System.Drawing.Size(51, 40);
+            this.btnUpdateTicket.TabIndex = 14;
+            this.btnUpdateTicket.UseVisualStyleBackColor = false;
+            this.btnUpdateTicket.Click += new System.EventHandler(this.btnUpdateTicket_Click);
+            // 
+            // btnAddTicket
+            // 
+            this.btnAddTicket.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnAddTicket.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAddTicket.BackgroundImage")));
+            this.btnAddTicket.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnAddTicket.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnAddTicket.Location = new System.Drawing.Point(325, 70);
+            this.btnAddTicket.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnAddTicket.Name = "btnAddTicket";
+            this.btnAddTicket.Size = new System.Drawing.Size(51, 42);
+            this.btnAddTicket.TabIndex = 10;
+            this.btnAddTicket.UseVisualStyleBackColor = false;
+            this.btnAddTicket.Click += new System.EventHandler(this.btnAddTicket_Click);
+            // 
             // EmployeeV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1383, 450);
+            this.BackgroundImage = global::TicketAgency_Client.Properties.Resources.backgroundFrame;
+            this.ClientSize = new System.Drawing.Size(1456, 420);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "EmployeeV";
