@@ -1,0 +1,16 @@
+D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\obj\Debug\TicketAgency_Client.UserV.resources
+D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\obj\Debug\TicketAgency_Client.Properties.Resources.resources
+D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\obj\Debug\TicketAgency_Client.csproj.GenerateResource.cache
+D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\obj\Debug\TicketAgency_Client.csproj.CoreCompileInputs.cache
+D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\bin\Debug\TicketAgency_Client.exe.config
+D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\bin\Debug\TicketAgency_Client.exe
+D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\bin\Debug\TicketAgency_Client.pdb
+D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\bin\Debug\TicketAgency_Server.exe
+D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\bin\Debug\TicketAgency_Server.pdb
+D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\bin\Debug\TicketAgency_Server.exe.config
+D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\obj\Debug\TicketAgency_Client.csproj.CopyComplete
+D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\obj\Debug\TicketAgency_Client.exe
+D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\obj\Debug\TicketAgency_Client.pdb
+D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\obj\Debug\TicketAgency_Client.AuthenticationV.resources
+D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\obj\Debug\TicketAgency_Client.EmployeeV.resources
+D:\PS\TicketAgency_CS\TicketAgency_Client\TicketAgency_Client\obj\Debug\TicketAgency_Client.csproj.AssemblyReference.cache
